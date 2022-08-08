@@ -44,4 +44,4 @@ class Request:
 
                 if response.status == 403:
                     print(self.__clock)
-                    raise TypeError("PIZDA")
+                    raise TypeError("error")
